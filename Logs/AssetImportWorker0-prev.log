@@ -1,0 +1,902 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19045.2364; Version 2009; 64bit' Language: 'ko' Physical Memory: 16249 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Unity/Slay The King
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57953
+Successfully changed project path to: C:/Unity/Slay The King
+C:/Unity/Slay The King
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Unity/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/Slay The King/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   31.0.15.1694
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Initialize mono
+Mono path[0] = 'C:/Unity/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/2020.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Unity/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004294 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2698ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (878ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1413 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 3.102400 ms (FindLiveObjects: 0.132300 ms CreateObjectMapping: 0.053800 ms MarkObjects: 2.811400 ms  DeleteObjects: 0.104000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/TerrainData_2cd531e2-d5a1-47a4-89c2-4333a02df09e.asset
+  artifactKey: Guid(99eb71de2b7555544969cf81d1262126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_2cd531e2-d5a1-47a4-89c2-4333a02df09e.asset using Guid(99eb71de2b7555544969cf81d1262126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '7b6bb3bc836bd10ede9dc52cc2bc44ba') in 0.116568 seconds 
+  Import took 0.119323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(ec08d3907fd646445aa291a8a61ae5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(ec08d3907fd646445aa291a8a61ae5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '7b215329e716ae99732a7e3946dda83d') in 0.044328 seconds 
+  Import took 0.048123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/TerrainData_8e84d33a-b841-43cc-ae0a-647c3b38bf9c.asset
+  artifactKey: Guid(6bdc28eb0c62aa94c8cd940cdbab4a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_8e84d33a-b841-43cc-ae0a-647c3b38bf9c.asset using Guid(6bdc28eb0c62aa94c8cd940cdbab4a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'f61fc28f71144c91a6fd88572e64e268') in 0.029868 seconds 
+  Import took 0.033124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/arms1.fbx
+  artifactKey: Guid(ad0e16c6a6b809d4991a047c6a930a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arms1.fbx using Guid(ad0e16c6a6b809d4991a047c6a930a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0564c3baa8dbb24a2ca318ddbb74ea1') in 0.668350 seconds 
+  Import took 0.671050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/TerrainData_6f7ce9a5-ed03-45c9-8d4b-f9c2095ca6ff.asset
+  artifactKey: Guid(43a1517ed5370fc4fb4b674aa533b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_6f7ce9a5-ed03-45c9-8d4b-f9c2095ca6ff.asset using Guid(43a1517ed5370fc4fb4b674aa533b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b173aa0bf54f7362c0d34eff1788c2c') in 0.024423 seconds 
+  Import took 0.027188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(864654059d17f464fbf12dd307b22f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(864654059d17f464fbf12dd307b22f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98eee0ba2cd3abf42cdb18f43e6eb30d') in 0.021664 seconds 
+  Import took 0.025024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Invisable.mat
+  artifactKey: Guid(22d25ceb1c2ad09489365497d8f3f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invisable.mat using Guid(22d25ceb1c2ad09489365497d8f3f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46ba2e43d31ab1979d1a2ae111430ce') in 0.060049 seconds 
+  Import took 0.062526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/TerrainData_6cc05327-aa09-4fce-80c8-a21a2fc5eba4.asset
+  artifactKey: Guid(895bda848fd63614aa41a4292ac502b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_6cc05327-aa09-4fce-80c8-a21a2fc5eba4.asset using Guid(895bda848fd63614aa41a4292ac502b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'bb95a497b85f30e808f701dc2100452c') in 0.028527 seconds 
+  Import took 0.031170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/TerrainData_307452f0-5256-42a1-b90c-465f4b0f8aeb.asset
+  artifactKey: Guid(2730032774ec72e42a27fddb7c55c4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_307452f0-5256-42a1-b90c-465f4b0f8aeb.asset using Guid(2730032774ec72e42a27fddb7c55c4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '7f4f4e6e02739e97b17dee79a1826155') in 0.025503 seconds 
+  Import took 0.028241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/TerrainData_377b2dfa-0714-4844-a927-62603cffb874.asset
+  artifactKey: Guid(8bab259368e452242aa5e3b2af11b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_377b2dfa-0714-4844-a927-62603cffb874.asset using Guid(8bab259368e452242aa5e3b2af11b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bb72507a2316e1ad06d8f8ccd209ab') in 0.020106 seconds 
+  Import took 0.023215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/TerrainData_657b83b3-8e55-4784-99c9-ccdc996eb540.asset
+  artifactKey: Guid(7eddf997655c36045a47463b0dc06928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_657b83b3-8e55-4784-99c9-ccdc996eb540.asset using Guid(7eddf997655c36045a47463b0dc06928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '4d0b68f60567cb24bb6120dddda8fe51') in 0.024572 seconds 
+  Import took 0.027228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/TerrainData_a0610303-53e2-460d-928e-dd224b21e945.asset
+  artifactKey: Guid(825b82ff6cf020a4285441f1c532e7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a0610303-53e2-460d-928e-dd224b21e945.asset using Guid(825b82ff6cf020a4285441f1c532e7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'aa8b43025a1ea34e6f8c3ab296fb3f54') in 0.025763 seconds 
+  Import took 0.028594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/TerrainData_707e7223-f9e1-430d-a91a-875c050056ad.asset
+  artifactKey: Guid(3bd989920289a57408c0c79f3f60ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_707e7223-f9e1-430d-a91a-875c050056ad.asset using Guid(3bd989920289a57408c0c79f3f60ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71ea89f88d3021834a54d41d24c2de5') in 0.021003 seconds 
+  Import took 0.023584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/TerrainData_3cf56c83-7aca-4b68-a5be-cc3f71aa98aa.asset
+  artifactKey: Guid(7ed39836dfd38024296829338bde3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_3cf56c83-7aca-4b68-a5be-cc3f71aa98aa.asset using Guid(7ed39836dfd38024296829338bde3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '5b81099cc12bbff49236e5557e3bc695') in 0.025241 seconds 
+  Import took 0.027943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/TerrainData_18e34138-6ecd-4209-aacb-0de0d42d51e3.asset
+  artifactKey: Guid(c1c9df7ee514da14ab20b561afe2d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_18e34138-6ecd-4209-aacb-0de0d42d51e3.asset using Guid(c1c9df7ee514da14ab20b561afe2d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type3 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type5 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'bd9693eb6be7460b2ed66920797a0e16') in 0.023817 seconds 
+  Import took 0.026700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/arm1Color.png
+  artifactKey: Guid(9f16271dee7e7c74e87338380b7a7819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arm1Color.png using Guid(9f16271dee7e7c74e87338380b7a7819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097f6bef59c4029cd396703cbe931fbe') in 0.042091 seconds 
+  Import took 0.044861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/bombPrefab.prefab
+  artifactKey: Guid(089b41f16a829564ca4a920a2125b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bombPrefab.prefab using Guid(089b41f16a829564ca4a920a2125b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0f996e4ea23409c79ddc6d3df9e361') in 0.021951 seconds 
+  Import took 0.024504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(f7a0dabaab0e87a4fa98e76fc412d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(f7a0dabaab0e87a4fa98e76fc412d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type3 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '19580d765da42e4bec6a2d1fccd23805') in 0.021206 seconds 
+  Import took 0.023755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 293.103194 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Arc.prefab
+  artifactKey: Guid(43bd9856795e401438d8e2d6e4f7b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Arc.prefab using Guid(43bd9856795e401438d8e2d6e4f7b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363149574c2749622a3536d3c2f9d9a1') in 0.024446 seconds 
+  Import took 0.028113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/BattleCannon/Prefabs/cannon_upgrade_02.prefab
+  artifactKey: Guid(a658eab1da5d5ae428cff76f5b088d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BattleCannon/Prefabs/cannon_upgrade_02.prefab using Guid(a658eab1da5d5ae428cff76f5b088d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301b4142393f7ee81b4aa742afbcd46e') in 0.164477 seconds 
+  Import took 0.167356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Golem_Pack/Prefabs/Golem/Standalone_Combinations/Samples/Golem_SAS_01 Variant.prefab
+  artifactKey: Guid(4cefe2b7e30ef9d48a0200c68c0f7257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Golem/Standalone_Combinations/Samples/Golem_SAS_01 Variant.prefab using Guid(4cefe2b7e30ef9d48a0200c68c0f7257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c441b290dfe621be4a6d009923b7590') in 0.300252 seconds 
+  Import took 0.303067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fund4.prefab
+  artifactKey: Guid(967956a0043612f4cac455376569e585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fund4.prefab using Guid(967956a0043612f4cac455376569e585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862e9c61add2dffaa8c5a945721bae96') in 0.026371 seconds 
+  Import took 0.029268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/HalloweenMonstersGhost/PrefabsSingle/Character_Chost.prefab
+  artifactKey: Guid(1e53ab99435b1194a83bb713baff0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HalloweenMonstersGhost/PrefabsSingle/Character_Chost.prefab using Guid(1e53ab99435b1194a83bb713baff0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd0c462775568bc331869507177ae47') in 0.028673 seconds 
+  Import took 0.032617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Barrel2.prefab
+  artifactKey: Guid(faed0b893436c7e409349f70f319613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Barrel2.prefab using Guid(faed0b893436c7e409349f70f319613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6f9e24e5bb3c005f28b5a3eb4acd16') in 0.020510 seconds 
+  Import took 0.023500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/House3.prefab
+  artifactKey: Guid(8ef1f9ae0f5f41841bfcb16f4c7c705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/House3.prefab using Guid(8ef1f9ae0f5f41841bfcb16f4c7c705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1902f53d2f556e91c53559cae9059d78') in 0.029674 seconds 
+  Import took 0.032925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Chair.prefab
+  artifactKey: Guid(79915e0de22adb440a96b3175a63283e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Chair.prefab using Guid(79915e0de22adb440a96b3175a63283e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b126856858b3e0b89123bbf825c67d59') in 0.021385 seconds 
+  Import took 0.023953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Cart.prefab
+  artifactKey: Guid(257e7228eb81fb84cb75c56714125bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Cart.prefab using Guid(257e7228eb81fb84cb75c56714125bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ee27e00c4f88ed8abd72b6fbfb2328') in 0.027834 seconds 
+  Import took 0.031110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Extension2.prefab
+  artifactKey: Guid(58eb8bce9fc66894e9d2e1e30e24a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Extension2.prefab using Guid(58eb8bce9fc66894e9d2e1e30e24a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893e74d61724ec665890e30355b3d4ec') in 0.022686 seconds 
+  Import took 0.025706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Camp2.prefab
+  artifactKey: Guid(5240fb00498ea65418f8fd579be1b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Camp2.prefab using Guid(5240fb00498ea65418f8fd579be1b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84098b3c12616b36449c1e497060d54a') in 0.021025 seconds 
+  Import took 0.023741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Arc4.prefab
+  artifactKey: Guid(f4954490f885a3543a58c77440934747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Arc4.prefab using Guid(f4954490f885a3543a58c77440934747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd276dd39517960a239d3be995e6e98') in 0.020376 seconds 
+  Import took 0.023019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab
+  artifactKey: Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab using Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f1f45f5b35a33284887b888ec0c9e1') in 0.018749 seconds 
+  Import took 0.021246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Box.prefab
+  artifactKey: Guid(c673fae664b13b44c859f10b25c1cbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Box.prefab using Guid(c673fae664b13b44c859f10b25c1cbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47ca6f764d80d913207c7a7aa3c3803') in 0.024502 seconds 
+  Import took 0.027445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Extension4.prefab
+  artifactKey: Guid(59a9d8fdc0af88b4db24dab7b6a03534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Extension4.prefab using Guid(59a9d8fdc0af88b4db24dab7b6a03534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cc5035f3271c3919ed81ed5a5e4939') in 0.023065 seconds 
+  Import took 0.025607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/BattleCannon/Prefabs/cannon_upgrade_01.prefab
+  artifactKey: Guid(f8f047695f472d84c9c1786697b77ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BattleCannon/Prefabs/cannon_upgrade_01.prefab using Guid(f8f047695f472d84c9c1786697b77ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cce275ba8616904fd896892a609d1a') in 0.019483 seconds 
+  Import took 0.022088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fence.prefab
+  artifactKey: Guid(5b43a3ea634bfa041b23017502f34cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fence.prefab using Guid(5b43a3ea634bfa041b23017502f34cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac24fb68020aa8413d2a7e0bf174717') in 0.021256 seconds 
+  Import took 0.023721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Bench.prefab
+  artifactKey: Guid(9b286c7bdc0f30645811cc2abb2c3b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Bench.prefab using Guid(9b286c7bdc0f30645811cc2abb2c3b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7e37593180010e975b2d7115176e35') in 0.018652 seconds 
+  Import took 0.021912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Door3.prefab
+  artifactKey: Guid(b4dda4800e879e449b4f35613925b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Door3.prefab using Guid(b4dda4800e879e449b4f35613925b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd4ac351f9891e30f54e3aa64fbc2f4') in 0.024544 seconds 
+  Import took 0.027286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fund5.prefab
+  artifactKey: Guid(b2ddf177a4c5ca840a2007883a6db59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fund5.prefab using Guid(b2ddf177a4c5ca840a2007883a6db59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20593b15c24fa7a1b060473652eb1a1') in 0.022884 seconds 
+  Import took 0.025757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Barrel.prefab
+  artifactKey: Guid(21bd98e95dc922347ae6446c1decac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Barrel.prefab using Guid(21bd98e95dc922347ae6446c1decac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0399f702712e13fb7471c8e00b44d3e3') in 0.021436 seconds 
+  Import took 0.024192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Golem_Pack/Prefabs/Golem/Standalone_Combinations/Samples/Golem_SAS_03.prefab
+  artifactKey: Guid(fa69b1eebd2e1db4a94f4dfe1cbddc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Golem/Standalone_Combinations/Samples/Golem_SAS_03.prefab using Guid(fa69b1eebd2e1db4a94f4dfe1cbddc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ef942730e248d18f3c0ec96a9f8463') in 0.031718 seconds 
+  Import took 0.034347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/LowPolyDungeonsLite/Prefabs/Bottle_05.prefab
+  artifactKey: Guid(0c837400ef1130c4196d20ee30637d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyDungeonsLite/Prefabs/Bottle_05.prefab using Guid(0c837400ef1130c4196d20ee30637d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fc6bc0ade5155b1ab8a06984daba41') in 0.018770 seconds 
+  Import took 0.021255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Doorstep2 1.prefab
+  artifactKey: Guid(3310db7392b04a841afa2217b6619ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Doorstep2 1.prefab using Guid(3310db7392b04a841afa2217b6619ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe5292a6890f1ad760cb3ee3ebd4fcb') in 0.017382 seconds 
+  Import took 0.019873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/House.prefab
+  artifactKey: Guid(ca81948ea9bc7ad4187b6dc663e7270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/House.prefab using Guid(ca81948ea9bc7ad4187b6dc663e7270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c780d52fc628fdc48f9d252f66c3982') in 0.025409 seconds 
+  Import took 0.028997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Doorstep3.prefab
+  artifactKey: Guid(05a8317666026b745a38d26f2dcaa957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Doorstep3.prefab using Guid(05a8317666026b745a38d26f2dcaa957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8c4fe6094fac815a36782351a08aef') in 0.022762 seconds 
+  Import took 0.025275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/LowPolyDungeonsLite/Prefabs/Ground_03.prefab
+  artifactKey: Guid(fd2de4bd876f4ac4980370e624362931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyDungeonsLite/Prefabs/Ground_03.prefab using Guid(fd2de4bd876f4ac4980370e624362931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf3ff3bf817348883000e6f7d76a118') in 0.022368 seconds 
+  Import took 0.025170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Golem_Pack/Prefabs/Standalone_Weapons/Golem_Weapon_Standalone_Pick.prefab
+  artifactKey: Guid(ebd1899b8d27af143877da15a3a6502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Standalone_Weapons/Golem_Weapon_Standalone_Pick.prefab using Guid(ebd1899b8d27af143877da15a3a6502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947b1c3ea3dda40bcec1ddb3584cdf92') in 0.022791 seconds 
+  Import took 0.025735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Golem_Pack/Prefabs/Standalone_Weapons/Golem_Weapon_Standalone_Hammer.prefab
+  artifactKey: Guid(6f2cec4246d34b849b7eead355131152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Standalone_Weapons/Golem_Weapon_Standalone_Hammer.prefab using Guid(6f2cec4246d34b849b7eead355131152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23c5ae6a14c8cd6c4c163e7ab9f3b7a') in 0.023157 seconds 
+  Import took 0.025818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Door2.prefab
+  artifactKey: Guid(f2da664583f69984a936f922028a29ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Door2.prefab using Guid(f2da664583f69984a936f922028a29ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6eac4a6690f27798d58c476f816178') in 0.021285 seconds 
+  Import took 0.024101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fund3.prefab
+  artifactKey: Guid(66f12ff80841ca544916ed6c889f594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fund3.prefab using Guid(66f12ff80841ca544916ed6c889f594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f27889cf9bc58a82cdd03cb478bc8f1') in 0.020296 seconds 
+  Import took 0.022900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Flower.prefab
+  artifactKey: Guid(b4c3c543415a6a343afbf5b5197e29df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Flower.prefab using Guid(b4c3c543415a6a343afbf5b5197e29df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43501f4938d97c56fdb3bcb385a907e6') in 0.020327 seconds 
+  Import took 0.023234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Golem_Pack/Prefabs/Standalone_Weapons/Golem_Weapon_Standalone_Shield.prefab
+  artifactKey: Guid(28d5d8e05559c1e488c42afb7a0dbb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Standalone_Weapons/Golem_Weapon_Standalone_Shield.prefab using Guid(28d5d8e05559c1e488c42afb7a0dbb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c3788215f256499ca2aba99a9ff029') in 0.020887 seconds 
+  Import took 0.024206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Doorstep2.prefab
+  artifactKey: Guid(1642aeffa97f78f4ea4c974d6cd7b539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Doorstep2.prefab using Guid(1642aeffa97f78f4ea4c974d6cd7b539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574f063d05932c0e83d02a35c6de32dc') in 0.017145 seconds 
+  Import took 0.019731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab
+  artifactKey: Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab using Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f75838ab9c294efe2adf2be17d17b95') in 0.018598 seconds 
+  Import took 0.021212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Arc3.prefab
+  artifactKey: Guid(76e55d47bc98adf42b176e350f8a6d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Arc3.prefab using Guid(76e55d47bc98adf42b176e350f8a6d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa950cf6f709a76a371c9f732e87d83') in 0.021174 seconds 
+  Import took 0.024434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Doorstep.prefab
+  artifactKey: Guid(ff7aa00be6c2310439fb0030fefd970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Doorstep.prefab using Guid(ff7aa00be6c2310439fb0030fefd970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5be5380b1494b5438fb832954a1da6c') in 0.015900 seconds 
+  Import took 0.018744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fund2.prefab
+  artifactKey: Guid(75a0b3a83e995334ca2bdb8679547e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fund2.prefab using Guid(75a0b3a83e995334ca2bdb8679547e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c30c279e7289ec3c605e2ae029fa6f8') in 0.023123 seconds 
+  Import took 0.025922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/LowPolyDungeonsLite/Prefabs/Book_09.prefab
+  artifactKey: Guid(92d4430c1aabefa4691079bac409cbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyDungeonsLite/Prefabs/Book_09.prefab using Guid(92d4430c1aabefa4691079bac409cbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042b64f6383819a143bab8df91575d47') in 0.017114 seconds 
+  Import took 0.020261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fund6.prefab
+  artifactKey: Guid(6d2ea6e9378541c40b4c419462beccc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fund6.prefab using Guid(6d2ea6e9378541c40b4c419462beccc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ec89bad23a1ca17217e894887f41fa') in 0.020729 seconds 
+  Import took 0.023509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Gats.prefab
+  artifactKey: Guid(afd8b1b088fa65d4baa6aea152587113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Gats.prefab using Guid(afd8b1b088fa65d4baa6aea152587113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4de1b6826841d4258c35905c58b9db5') in 0.022207 seconds 
+  Import took 0.025435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Grass.prefab
+  artifactKey: Guid(b381f3d481b31b24389fc199fd9e4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Grass.prefab using Guid(b381f3d481b31b24389fc199fd9e4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898bdfa4e33f45884708edef28f70f78') in 0.030110 seconds 
+  Import took 0.033772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/LowPolyDungeonsLite/Prefabs/Column_01.prefab
+  artifactKey: Guid(2f3f7d4927009b84583c02fcbc509217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyDungeonsLite/Prefabs/Column_01.prefab using Guid(2f3f7d4927009b84583c02fcbc509217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b99199a96cb7afc42246b7f733f9ab0') in 0.018187 seconds 
+  Import took 0.020904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Golem_Pack/Prefabs/Golem/Standalone_Combinations/Samples/Golem_SAS_02.prefab
+  artifactKey: Guid(2726ab941903e4a4db746191b092d24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Golem/Standalone_Combinations/Samples/Golem_SAS_02.prefab using Guid(2726ab941903e4a4db746191b092d24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4303f435c3a12999ff3cba4ad1ca4c6') in 0.024066 seconds 
+  Import took 0.026958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Grass2.prefab
+  artifactKey: Guid(b35631a1562fae646aeb0fce9a2983dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Grass2.prefab using Guid(b35631a1562fae646aeb0fce9a2983dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7582cfb6801e50c81ba1309a55534b93') in 0.023207 seconds 
+  Import took 0.026193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/House4.prefab
+  artifactKey: Guid(81d07f42dcb8ec340af72890ee27180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/House4.prefab using Guid(81d07f42dcb8ec340af72890ee27180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3ac3a5ce1753b31addd7cb13308db0') in 0.025972 seconds 
+  Import took 0.028734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/House2.prefab
+  artifactKey: Guid(4327c87a9799c46418f2732a3452b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/House2.prefab using Guid(4327c87a9799c46418f2732a3452b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4eb6111d4c8dd90e1ca428b9aab2308') in 0.023943 seconds 
+  Import took 0.026978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/LowPolyDungeonsLite/Prefabs/Ground_01.prefab
+  artifactKey: Guid(98f5378049f9b5745a77677f581b32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyDungeonsLite/Prefabs/Ground_01.prefab using Guid(98f5378049f9b5745a77677f581b32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67060434b6201112ce7275fefd2530a') in 0.017278 seconds 
+  Import took 0.020128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Golem_Pack/Prefabs/Standalone_Weapons/Golem_Weapon_Standalone_Sword.prefab
+  artifactKey: Guid(8057bf016359e0e4ca1a87f4817ad076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Standalone_Weapons/Golem_Weapon_Standalone_Sword.prefab using Guid(8057bf016359e0e4ca1a87f4817ad076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf4466f4b667b018c8a9df047e70905') in 0.020963 seconds 
+  Import took 0.023807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Chair2.prefab
+  artifactKey: Guid(60c74fd9ece83684c974552acab57609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Chair2.prefab using Guid(60c74fd9ece83684c974552acab57609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2017950a31af9d2cf8826238967a8ff6') in 0.017628 seconds 
+  Import took 0.020325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Door.prefab
+  artifactKey: Guid(e7429e2200de04c4a9e7b4535918d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Door.prefab using Guid(e7429e2200de04c4a9e7b4535918d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d27c18c22ba5e4851f0844b85af1cb3') in 0.020398 seconds 
+  Import took 0.023366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Camp.prefab
+  artifactKey: Guid(83ac38058f039f1408fd16ab5074a51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Camp.prefab using Guid(83ac38058f039f1408fd16ab5074a51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c833d6003f846192ae4dbcaa7071d04f') in 0.020404 seconds 
+  Import took 0.023183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Golem_Pack/Prefabs/Golem/Greystone/Samples/Sword/Golem_Greystone_S1.prefab
+  artifactKey: Guid(769a23ce24154d3459858aa1c286a469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Golem/Greystone/Samples/Sword/Golem_Greystone_S1.prefab using Guid(769a23ce24154d3459858aa1c286a469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fe37820e3de37d1e9763cbacecfd00') in 0.045880 seconds 
+  Import took 0.050114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Box2.prefab
+  artifactKey: Guid(a0144fdb4b38cbd4ab1aba19d3feaed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Box2.prefab using Guid(a0144fdb4b38cbd4ab1aba19d3feaed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab77e2356458ff471ee9d487de94417') in 0.022203 seconds 
+  Import took 0.026071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/BattleCannon/Prefabs/cannon_upgrade_03.prefab
+  artifactKey: Guid(3a3cc95293df01741b392867d0340f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BattleCannon/Prefabs/cannon_upgrade_03.prefab using Guid(3a3cc95293df01741b392867d0340f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe775f666fe12f7ed761d2e1ce69c92') in 0.019618 seconds 
+  Import took 0.022176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Extension3.prefab
+  artifactKey: Guid(af176be83fcfacc49b6a6566d508654a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Extension3.prefab using Guid(af176be83fcfacc49b6a6566d508654a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff314a8f9fc2f73e80e6df703c4e86b6') in 0.019252 seconds 
+  Import took 0.022058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(c67e7429422bd8f47aae22d627dfe41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass3d3aba195e4d26ee.terrainlayer using Guid(c67e7429422bd8f47aae22d627dfe41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c9a6c200f7b25867c8605f1da546ef') in 0.022590 seconds 
+  Import took 0.025226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Rock23d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(1c038e0baa2b1a34eb66daa60d244a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Rock23d3aba195e4d26ee.terrainlayer using Guid(1c038e0baa2b1a34eb66daa60d244a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb3eb1e64d983d088c1a11d91915477') in 0.015788 seconds 
+  Import took 0.018292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Rock33d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(df77a5859a7bf3848b709978bf48f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Rock33d3aba195e4d26ee.terrainlayer using Guid(df77a5859a7bf3848b709978bf48f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095ba13e650f4351dc141a6431a0afbb') in 0.015708 seconds 
+  Import took 0.018170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Rock3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(0988c75de340a0a44899a32011e6a0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Rock3d3aba195e4d26ee.terrainlayer using Guid(0988c75de340a0a44899a32011e6a0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03477b307e5be49f90234cdcd0fa1f44') in 0.016055 seconds 
+  Import took 0.018898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fence2.prefab
+  artifactKey: Guid(2b7904da682466046a7e79f72dc25abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fence2.prefab using Guid(2b7904da682466046a7e79f72dc25abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf9298579a37e870218657473a3d210') in 0.017375 seconds 
+  Import took 0.020066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Golem_Pack/Prefabs/Golem/Redrock/Samples/Sword/Golem_Redrock_S1.prefab
+  artifactKey: Guid(dac826979a063df418e8912853f690c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Golem/Redrock/Samples/Sword/Golem_Redrock_S1.prefab using Guid(dac826979a063df418e8912853f690c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b6f88088d58a8d4c7d8cff15c1b2a8') in 0.037604 seconds 
+  Import took 0.042108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Extension.prefab
+  artifactKey: Guid(7a539eaaa6af1ea408e63531b7aa00de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Extension.prefab using Guid(7a539eaaa6af1ea408e63531b7aa00de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f588f86a42fefd44cb3f99ce77e0542') in 0.021533 seconds 
+  Import took 0.024660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Constructs.prefab
+  artifactKey: Guid(38688e26d7a40624aa4e6bb7ef190e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Constructs.prefab using Guid(38688e26d7a40624aa4e6bb7ef190e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64266924a058e6468fdccf1ff987ed4') in 0.018251 seconds 
+  Import took 0.020862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fund.prefab
+  artifactKey: Guid(2aa3f466ae43a7d46a00e8806d11d732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fund.prefab using Guid(2aa3f466ae43a7d46a00e8806d11d732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c074560df4deb2d8d231fb9b123be7') in 0.018451 seconds 
+  Import took 0.021257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Arc2.prefab
+  artifactKey: Guid(7394d843515dd1f4e80c3fa605d074df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Arc2.prefab using Guid(7394d843515dd1f4e80c3fa605d074df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f05eba98488cad80c518f990cf6859') in 0.017600 seconds 
+  Import took 0.020488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/LowPolyDungeonsLite/Prefabs/Chair_05.prefab
+  artifactKey: Guid(3c94a574020d3de429d0c295b3a83db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyDungeonsLite/Prefabs/Chair_05.prefab using Guid(3c94a574020d3de429d0c295b3a83db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4f0709b7768f903e1cdffca58d823d') in 0.017990 seconds 
+  Import took 0.020526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fund8.prefab
+  artifactKey: Guid(e89a6f0275f946c4caf4e33729c7e6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fund8.prefab using Guid(e89a6f0275f946c4caf4e33729c7e6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e0d6e857d8b067e18423d0ba77795d') in 0.017814 seconds 
+  Import took 0.020449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000905 seconds.
+  path: Assets/Golem_Pack/Prefabs/Golem/Sandstone/Samples/Sword/Golem_Sandstone_S1.prefab
+  artifactKey: Guid(9382de00db551604198ce28f842e3aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Golem/Sandstone/Samples/Sword/Golem_Sandstone_S1.prefab using Guid(9382de00db551604198ce28f842e3aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6af86476267a2269ba6c46c71919bea') in 0.041001 seconds 
+  Import took 0.045707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/3D Cartoon Village/Prefabs/Fund7.prefab
+  artifactKey: Guid(c3abdeaa08b69374cbc1cf590f372d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Cartoon Village/Prefabs/Fund7.prefab using Guid(c3abdeaa08b69374cbc1cf590f372d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2152e3fbe83acefc435386102fd23fe8') in 0.020191 seconds 
+  Import took 0.022904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Golem_Pack/Prefabs/Golem/Ice/Samples/Sword/Golem_Ice_S1.prefab
+  artifactKey: Guid(a309e084f0261ed4ebfbdeb2abbca45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golem_Pack/Prefabs/Golem/Ice/Samples/Sword/Golem_Ice_S1.prefab using Guid(a309e084f0261ed4ebfbdeb2abbca45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70475ddcbae76a2a5413b06dce2e0508') in 0.039472 seconds 
+  Import took 0.043943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PyroParticles/Prefab/Prefab/FireBallPrefab.prefab
+  artifactKey: Guid(83a4b2309f09b2c4994f82b8ce7651c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PyroParticles/Prefab/Prefab/FireBallPrefab.prefab using Guid(83a4b2309f09b2c4994f82b8ce7651c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26d59143ac4084de3f43bf6aa14e035') in 0.019795 seconds 
+  Import took 0.022439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.045509 seconds.
+  path: Assets/Scenes/StartScene.unity
+  artifactKey: Guid(257c9c81bd1627245a504e5abdb2e9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene.unity using Guid(257c9c81bd1627245a504e5abdb2e9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085b994bd3eec0a4fc8857dda47451ee') in 0.007727 seconds 
+  Import took 0.010317 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
